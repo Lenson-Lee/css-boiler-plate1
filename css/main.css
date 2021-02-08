@@ -36,7 +36,7 @@ header {
 }
 
 header .inner-header {
-    width: 80%;
+    width: 84%;
     /* background: orange; */
     margin: 0 auto;
 }
@@ -59,6 +59,16 @@ header .inner-header .gnb li {
     margin-right: 80px;
 }
 
+header .inner-header .gnb li a {
+    color: #fff;
+    font-size: 16px;
+    /* background: red; */
+    display: block;
+}
+header .inner-header .gnb li a:hover {
+    color: #ff8342;
+}
+
 header .inner-header .tnb {
     float: right;
 }
@@ -66,6 +76,35 @@ header .inner-header .tnb {
 header .inner-header .tnb li {
     float: left;
     margin-right: 25px;
+}
+
+header .inner-header .tnb li a {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+header .inner-header .tnb li:last-child a {
+    display: block;
+    width: 105px;
+    line-height: 2;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin-top: 34px;
+}
+header .inner-header .tnb li:last-child a:hover {
+    background: #fff;
+    color: #ff8342;
+}
+
+header .inner-header .tnb li:first-child a i,
+header .inner-header .tnb li:nth-child(2) a i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+header .inner-header .tnb li:last-child a i {
+    margin-left: 5px;
 }
 
 
